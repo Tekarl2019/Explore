@@ -72,7 +72,7 @@ header ul li a:hover{
 }
 
 .btn-header{
-    width: 30%;
+    width: 20%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -98,7 +98,7 @@ header ul li a:hover{
     margin-right: 5px;
 }
 
-@media (max-width: 959px) {
+@media (max-width: 900px) {
     header ul{
         display: none;
     }
@@ -136,7 +136,7 @@ header ul li a:hover{
 
 
 
-/*---------------- Header -----------------*/
+/*---------------- Hero -----------------*/
 
 .hero{
     display: flex;
@@ -175,30 +175,98 @@ header ul li a:hover{
     transform: scale(1.1) rotate(-10deg);
 }
 
+.hero-right{
+    margin-left: 100px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right .text-right{
+    color: #f6D238;
+    font-weight: bold;
+}
+
+.hero-right h1{
+    margin: 20px 0;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.hero-right p{
+    margin-bottom: 25px;
+    color: #999;
+    font-size: 16px;
+}
+
+.hero-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.see-video{
+    border: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.see-video span{
+    margin-left: 25px;
+    font-weight: bold;
+}
+.video-bg{
+    margin-left: 25px;
+    background: url(img/img3.jpg);
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.play-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    right: -20px;
+    background-color: #fff;
+    transform: translate(-20%, 50%);
+}
+
+.play-btn i{
+    color: #cf0711;
+}
+
+/*----------------  -----------------*/
 
 
+/*============================================*/
+/*----------------  -----------------*/
 
 
+/*============================================*/
+/*----------------  -----------------*/
 
 
-
-/*---------------- Header -----------------*/
-
-
-/*=============================================================*/
-/*---------------- Header -----------------*/
+/*============================================*/
+/*----------------  -----------------*/
 
 
-/*=============================================================*/
-/*---------------- Header -----------------*/
+/*=============================================*/
+/*----------------  -----------------*/
 
 
-/*=============================================================*/
-/*---------------- Header -----------------*/
-
-
-/*=============================================================*/
-/*---------------- Header -----------------*/
-
-
-/*=============================================================*/
+/*=============================================*/
