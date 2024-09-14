@@ -356,6 +356,7 @@ header ul li a:hover{
 .top-destinations-gallery{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -386,12 +387,26 @@ header ul li a:hover{
     transition: 0.6s;
 }
 
-.gallery-block:hover .gallery-block-desc{
-    transform: translateY(-10vw);
+.gallery-block:hover .gallery-block-desc,.gallery-block:active .gallery-block-desc{
+    transform: translateY(-15vw);
 } 
 
-.gallery-block:hover img{
-    transform: translateY(-10vw);
+.gallery-block:hover img,.gallery-block:active img{
+    transform: translateY(-15vw);
+}
+
+@media(max-width: 724px){
+    .gallery-block:hover .gallery-block-desc,.gallery-block:active .gallery-block-desc{
+        transform: translateY(-140px);
+    } 
+    
+    .gallery-block:hover img,.gallery-block:active img{
+        transform: translateY(-140px);
+    }
+
+    .top-destinations-gallery{
+        justify-content: center;
+    }
 }
 /*============================================*/
 /*----------------  -----------------*/
