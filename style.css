@@ -356,6 +356,7 @@ header ul li a:hover{
 .top-destinations-gallery{
     display: flex;
     justify-content: space-between;
+    gap: 16px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -404,7 +405,7 @@ header ul li a:hover{
     transform: translateY(-10vw);
 }
 
-@media(max-width: 724px){
+@media(max-width: 1861px){
     .gallery-block:hover .gallery-block-desc,.gallery-block:active .gallery-block-desc{
         transform: translateY(-140px);
     } 
