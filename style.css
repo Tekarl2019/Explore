@@ -418,9 +418,111 @@ header ul li a:hover{
     }
 }
 /*============================================*/
-/*----------------  -----------------*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+/*---------------- book-now -----------------*/
+.book-now h2{
+    margin: 20px 0;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.book-now-desc{
+    color: #999;
+    font-size: 16px;
+    margin: 24px 0;
+    text-align: center;
+}
+
+.book-now-gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.book-now-block{
+    width: 27vw;
+    /* min-width: 300px;
+    min-height: 340px; */
+    overflow: hidden;
+    margin: 12px 0;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    border-radius: 1.5rem;
+
+}
+
+.img-box{
+    width: 27vw;
+    height: 23vw;
+    overflow:hidden;
+}
+.book-now-block img{
+    width: 27vw;
+    height: 23vw;
+    object-fit: cover;
+    border-radius: 1.5rem 1.5rem 0 0;
+    margin-bottom: 12px;
+    transition: 0.6s;
+}
+.book-now-block img:hover{
+    transform: scale(1.2) rotate(10deg);
+}
+
+.book-now-block p,.book-now-block i,.book-now-block .price{
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+
+.book-now-block p{
+
+}
+
+.book-now-block i{
+    color: rgba(221, 181, 4, 0.952);
+}
+
+.book-now-block .price{
+    padding-bottom: 30px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-now-block button{
+    color: #f6D238;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: 1px solid #f6D238;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.book-now-block button:hover{
+    color: #fff;
+    background-color: #f6D238;
+}
+
+
+.cta{
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}
 /*============================================*/
 /*----------------  -----------------*/
 
